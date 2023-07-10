@@ -5,11 +5,11 @@ layout: archive
 excerpt: "Relevant figures"
 author_profile: true
 redirect_from: 
-  - /figures.html
   - /figures/
+  - /figures.html
 ---
 
-{% include base_path %}
+
 Stratification model A
 ![Stratification model A](images/SPIDeRR_stratA.PNG)
 
