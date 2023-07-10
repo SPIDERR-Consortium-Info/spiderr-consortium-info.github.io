@@ -5,11 +5,10 @@ layout: archive
 excerpt: "Partners of the SPIDeRR consortium"
 author_profile: true
 redirect_from: 
-  - /partners.html
   - /partners/
+  - /partners.html
 ---
 
-{% include base_path %}
 - Leiden University Medical Center (ACADEMISCH ZIEKENHUIS LEIDEN) - COORDINATOR
 - University of Erlangen-Nuremberg (FRIEDRICH-ALEXANDER-UNIVERSITAET ERLANGEN-NUERNBERG)
 - Karolinska Institute (KAROLINSKA INSTITUTET)
