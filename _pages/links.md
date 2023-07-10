@@ -9,4 +9,6 @@ redirect_from:
   - /links/
 ---
 
+{% include base_path %}
+
 https://www.lumc.nl/en/about-lumc/news/2023/mei/subsidy-for-development-of-tools-for-fast-and-accurate-rheumatic-diagnosissubsidie-voor-ontwikkeling-tools-voor-snelle-en-accurate-reumadiagnose/
