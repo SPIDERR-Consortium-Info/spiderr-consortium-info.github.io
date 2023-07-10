@@ -5,7 +5,7 @@ layout: archive
 excerpt: "Relevant figures"
 author_profile: true
 redirect_from: 
-  - /figures/
+  - /figures
   - /figures.html
 ---
 
