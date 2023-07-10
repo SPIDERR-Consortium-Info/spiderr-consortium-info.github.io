@@ -8,6 +8,7 @@ redirect_from:
   - /figures/
 ---
 
+{% include base_path %}
 Stratification model A
 ![Stratification model A](images/SPIDeRR_stratA.PNG)
 
