@@ -211,12 +211,12 @@ defaults:
       layout: single
       author_profile: true
   # _links
-  - scope:
-      path: ""
-      type: links
-    values:
-      layout: single
-      author_profile: true
+  # - scope:
+  #     path: ""
+  #     type: links
+  #   values:
+  #     layout: single
+  #     author_profile: true
   # _publications
   - scope:
       path: ""
@@ -227,19 +227,19 @@ defaults:
       share: true
       comments: true
   # _figures
-  - scope:
-      path: ""
-      type: figures
-    values:
-      layout: single
-      author_profile: true
+  # - scope:
+  #     path: ""
+  #     type: figures
+  #   values:
+  #     layout: single
+  #     author_profile: true
   # _partners
-  - scope:
-      path: ""
-      type: partners
-    values:
-      layout: single
-      author_profile: true
+  # - scope:
+  #     path: ""
+  #     type: partners
+  #   values:
+  #     layout: single
+  #     author_profile: true
 
 # Sass/SCSS
 sass:
