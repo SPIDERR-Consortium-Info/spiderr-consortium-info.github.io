@@ -1,7 +1,7 @@
 ---
 permalink: /partners/
 title: "Partners"
-layout: default
+layout: archive
 excerpt: "Partners of the SPIDeRR consortium"
 author_profile: true
 redirect_from: 
