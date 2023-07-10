@@ -1,12 +1,27 @@
 ---
 permalink: /
 title: "SPIDERR"
-excerpt: "About me"
-author_profile: true
+excerpt: "About SPIDERR"
+author_profile: false
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+Globally 1.71 billion people have musculoskeletal symptoms, the leading contributor to disability. Early disease stratification is important to ensure appropriate care (most suited healthcare provider and best treatment choice). Currently the patient journey to diagnosis and effective treatment is long and inefficient, resulting in persistent disease burden and economical loss. This is due to insufficiently understood relations disease causes and similarities in symptoms between diseases, insufficiently distinguishing tests, trial and error approach in initial treatment. 
+
+SPIDeRR aims to disentangle the real-life complexity of early diagnosis of rheumatic diseases by considering the complete web of factors influencing patients’ symptoms. SPIDeRR’s approach will go well beyond the state-of-the-art in the following ways: 
+- By identifying different disease groups, requiring different therapies, amongst patients with similar symptoms in contrast to the traditional approach aiming to only capture one disease early.
+- By integrating all relevant data dimensions from every healthcare level (primary and secondary care and patients seeking advice online).
+- By translating and applying machine learning techniques from the “omics” field to clinical patient data, which will result in new pipelines for translational data science
+
+SPIDERR will deliver three clinical models
+- a symptom checker for patients
+- a decision support tool for (primary) care providers providing guiding additional examination and referral decisions
+- a patient-patient similarity network to optimise diagnostic groups in rheumatology and support treatment decision
+
+To achieve this we additionally deliver solutions for data integration and shared analyses though GDPR compliant digital research environment and federated learning pipelines.<br>
+Finally we will test the acceptability of the models through stakeholders studies and provide an implementation scene tailored to current healthcare in Europe. 
 
 This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
