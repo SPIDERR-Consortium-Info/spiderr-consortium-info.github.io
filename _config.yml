@@ -218,6 +218,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _publications
   - scope:
       path: ""
       type: publications
@@ -247,7 +248,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-  _publications
 
 # Sass/SCSS
 sass:
