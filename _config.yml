@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "SPIDERR Consortium research project"
+title                    : "SPIDeRR Consortium research project"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
+name                     : &name "SPIDeRR"
+description              : &description "Stratification of Patients using advanced Integrative modeling of Data Routinely acquired for diagnosing Rheumatic complaints"
 url                      : https://SPIDERR-Consortium-Info.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "SPIDERR-Consortium-Info/spiderr-info.github.io"
@@ -81,11 +81,11 @@ analytics:
 # Site Author
 author:
   name             : "SPIDERR"
-  avatar           : "logo1b_tall.png"
+  avatar           : "logo1b_square.png"
   bio              : "Research project"
   location         : "Europe"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=SPIDERR"
+  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=SPIDeRR"
   googlescholar    : ""
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
