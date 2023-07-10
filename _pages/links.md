@@ -1,7 +1,7 @@
 ---
 permalink: /links/
 title: "Links"
-layout: single
+layout: default
 excerpt: "Relevant links"
 author_profile: true
 redirect_from: 

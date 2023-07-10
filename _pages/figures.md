@@ -1,7 +1,7 @@
 ---
 permalink: /figures/
 title: "Figures"
-layout: single
+layout: default
 excerpt: "Relevant figures"
 author_profile: true
 redirect_from: 
