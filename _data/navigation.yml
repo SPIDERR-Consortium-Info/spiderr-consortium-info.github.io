@@ -3,6 +3,15 @@ main:
   - title: "Publications"
     url: /publications/
 
+  - title: "Figures"
+    url: /figures/
+
+  - title: "Partners"
+    url: /partners/
+
+  - title: "Links"
+    url: /links/
+
 #  - title: "Talks"
 #    url: /talks/    
         
