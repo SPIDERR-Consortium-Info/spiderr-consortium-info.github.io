@@ -8,6 +8,10 @@ redirect_from:
   - /about.html
 ---
 
+<font size="18">**SPIDeRR**</font>
+## Stratification of Patients using advanced Integrative modeling of Data Routinely acquired for diagnosing Rheumatic complaints
+
+
 Globally 1.71 billion people have musculoskeletal symptoms, the leading contributor to disability. Early disease stratification is important to ensure appropriate care (most suited healthcare provider and best treatment choice). Currently the patient journey to diagnosis and effective treatment is long and inefficient, resulting in persistent disease burden and economical loss. This is due to insufficiently understood relations disease causes and similarities in symptoms between diseases, insufficiently distinguishing tests, trial and error approach in initial treatment. 
 
 SPIDeRR aims to disentangle the real-life complexity of early diagnosis of rheumatic diseases by considering the complete web of factors influencing patients’ symptoms. SPIDeRR’s approach will go well beyond the state-of-the-art in the following ways: 
