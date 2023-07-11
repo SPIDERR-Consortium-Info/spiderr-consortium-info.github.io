@@ -12,6 +12,9 @@ main:
   - title: "Links"
     url: /links/
 
+  - title: "Tools"
+    url: "/tools/"
+
 #  - title: "Talks"
 #    url: /talks/    
         
