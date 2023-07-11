@@ -15,7 +15,7 @@ Stratification model A
 ![Stratification model A](../images/SPIDeRR_stratA.PNG)
 
 Stratification models B and C
-![Stratification model A](../images/SPIDeRR_stratB.PNG)
+![Stratification model A](../images/SPIDeRR_stratBC.PNG)
 
 Envisioned improvements in time to diagnose musculoskeletal diseases
 ![SPIDeRR Time to Diagnose](../images/SPIDeRR_survival.PNG)
