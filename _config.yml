@@ -11,9 +11,9 @@ title                    : "SPIDeRR Consortium research project"
 title_separator          : "-"
 name                     : &name "SPIDeRR"
 description              : &description "Stratification of Patients using advanced Integrative modeling of Data Routinely acquired for diagnosing Rheumatic complaints"
-url                      : https://SPIDERR-Consortium-Info.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://SPIDERR-Consortium.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "SPIDERR-Consortium-Info/spiderr-info.github.io"
+repository               : "SPIDERR-Consortium/spiderr-consortium.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
