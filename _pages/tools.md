@@ -13,4 +13,5 @@ redirect_from:
 
 {% for tool in site.tools reversed %} 
   {% include archive-single-tool.html %} 
+  <hr>
 {% endfor %}
