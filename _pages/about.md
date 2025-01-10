@@ -8,7 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-<font size="18">**SPIDeRR**</font>
 ## Stratification of Patients using advanced Integrative modeling of Data Routinely acquired for diagnosing Rheumatic complaints
 
 
