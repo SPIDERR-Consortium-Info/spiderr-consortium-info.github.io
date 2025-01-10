@@ -46,6 +46,8 @@
     {% else %}
       {% if tool.githuburl %}
         <p><a href="{{ tool.githuburl }}" rel="permalink">Link to {{ title }} GitHub page</a></p>
+      {% elsif tool.toolurl %}
+        <p><a href="{{ tool.toolurl }}" rel="permalink">Link to {{ title }} tool website</a></p>
       {% endif %}
     {% endif %}
 
