@@ -188,6 +188,9 @@ collections:
   links:
     output: true
     permalink: /:collection/:path/
+  tools:
+    output: true
+    permalink: /:collection/:path/
   # teaching:
   #   output: true
   #   permalink: /:collection/:path/
@@ -246,6 +249,13 @@ defaults:
   - scope:
       path: ""
       type: links
+    values:
+      layout: single
+      author_profile: true
+  # _tools
+  - scope:
+      path: ""
+      type: tools
     values:
       layout: single
       author_profile: true

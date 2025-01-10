@@ -1,0 +1,67 @@
+{% include base_path %}
+
+{% if tool.teaser %}
+  {% assign teaser = tool.teaser %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% assign title = tool.title %}
+
+<div class="{{ include.type | default: "grid" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if include.type == "grid" and teaser %}
+      <div class="archive__item-teaser">
+        <img src=
+          {% if teaser contains "://" %}
+            "{{ teaser }}"
+          {% else %}
+            "{{ teaser | prepend: "/images/tools/" | prepend: base_path }}"
+          {% endif %}
+          alt="">
+      </div>
+    {% endif %}
+
+    <h2 class="archive__item-title" itemprop="headline">
+      {% if tool.link %}
+        <a href="{{ tool.link }}">{{ title }}</a> <a href="{{ base_path }}{{ tool.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+      {% else %}
+        <a href="{{ base_path }}{{ tool.url }}" rel="permalink">{{ title }}</a>
+      {% endif %}
+    </h2>
+    {% if tool.fulltitle %}
+      <h3 class="archive__item-title" itemprop="headline"> {{ tool.fulltitle}} </h3>  
+    {% endif %}
+        
+    {% if tool.excerpt and site.read_more != 'enabled' %}
+      <p class="archive__item-excerpt" itemprop="description">{{ tool.excerpt | markdownify }}</p>
+    {% elsif tool.excerpt and site.read_more == 'enabled' %}
+      <p class="archive__item-excerpt" itemprop="description"><p>{{ tool.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ tool.url }}" rel="permalink"> Read more</a></strong></p></p>
+    {% endif %}
+
+    {% if tool.githuburl %}
+      <a href="{{ tool.githuburl }}" rel="permalink">Link to {{ title }} GitHub page</a>
+    {% endif %}
+    
+    <p>Developed by <i>{{ tool.author }}</i></p>
+    
+    {% if tool.languages %}
+      <p><strong>Languages: {{ tool.languages | default: 'Unknown' }}</strong></p>
+    {% endif %}
+
+    {% if tool.version %}
+      <p><strong>Version: {{ tool.version | default: "-" }}</strong></p>
+    {% endif %}
+
+    {% if tool.created %}
+      <p><strong>Created: {{ tool.created | default: "1900-01-01" | date: "%d-%m-%Y" }}</strong></p>
+    {% endif %}
+
+    {% if tool.updated %}
+      <p><strong>Last updated: {{ tool.updated | default: "1900-01-01" | date: "%d-%m-%Y" }}</strong></p>
+    {% endif %}
+
+    
+
+  </article>
+</div>
