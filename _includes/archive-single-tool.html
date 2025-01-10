@@ -40,7 +40,7 @@
       <p class="archive__item-excerpt" itemprop="description">
         {{ tool.excerpt | markdownify }}
           {% if tool.githuburl %}
-            <br><a href="{{ tool.githuburl }}" rel="permalink">Link to {{ title }} GitHub page</a>
+            <a href="{{ tool.githuburl }}" rel="permalink">Link to {{ title }} GitHub page</a>
           {% endif %}    
       </p>
     {% else %}
