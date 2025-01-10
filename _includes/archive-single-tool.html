@@ -10,15 +10,12 @@
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    <div class="archive__item-teaser">
-      <img src=
-        {% if teaser contains "://" %}
-          "{{ teaser }}"
-        {% else %}
-          "{{ teaser | prepend: "/images/tools/" | prepend: base_path }}"
-        {% endif %}
-        alt="">
-    </div>
+    {% if post.imgname %}
+      <div class="archive__item-teaser">
+        <img src="{{ post.imgname | prepend: "/images/tools/" | prepend: base_path }}"
+            alt="">
+      </div>
+    {% endif %}
 
     <h2 class="archive__item-title" itemprop="headline">
       {% if tool.link %}
@@ -58,8 +55,5 @@
     {% if tool.updated %}
       <p><strong>Last updated: {{ tool.updated | default: "1900-01-01" | date: "%d-%m-%Y" }}</strong></p>
     {% endif %}
-
-    
-
   </article>
 </div>
