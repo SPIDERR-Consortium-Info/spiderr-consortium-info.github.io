@@ -8,14 +8,8 @@
 
 {% assign title = tool.title %}
 
-<style>
-  img {
-    max-height: 300px;
-    width: auto;
-  }
-</style>
 
-<div style="max-height: 450px; ">
+<div>
   <article>
     {% if tool.imgname %}
         <img src="{{ tool.imgname | prepend: "/images/tools/" | prepend: base_path }}"

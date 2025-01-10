@@ -11,6 +11,18 @@ redirect_from:
 
 {% include base_path %}
 
+<style>
+  div {
+    max-height: 400px; 
+    min-height: 200px
+  }
+
+  img {
+    max-height: 200px;
+    width: auto;
+  }
+</style>
+
 {% for tool in site.tools reversed %} 
   {% include archive-single-tool.html %} 
   <hr>
