@@ -32,7 +32,7 @@
       {% endif %}
       
       {% if tool.fulltitle %}
-        {{ tool.fulltitle }}  
+        <br>{{ tool.fulltitle }}  
       {% endif %}
     </h3>
         
@@ -50,18 +50,18 @@
     {% endif %}
 
     <p>
-      Developed by: <i>{{ tool.author }}</i><br>
+      Developed by: <i>{{ tool.author }}</i>
 
       {% if tool.languages  %}
-        Languages: {{ tool.languages | default: 'Unknown' }}
+        <br>Languages: {{ tool.languages | default: 'Unknown' }}
       {% endif %}
 
       {% if tool.version %}
-        Version: {{ tool.version | default: "-" }}
+        <br>Version: {{ tool.version | default: "-" }}
       {% endif %}
 
       {% if tool.created %}
-        Created: {{ tool.created | default: "1900-01-01" | date: "%d-%m-%Y" }}
+        <br>Created: {{ tool.created | default: "1900-01-01" | date: "%d-%m-%Y" }}
       {% endif %}
     </p>
   </article>
