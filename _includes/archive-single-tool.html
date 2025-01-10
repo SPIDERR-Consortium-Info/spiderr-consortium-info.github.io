@@ -9,12 +9,13 @@
 {% assign title = tool.title %}
 
 
-<div>
+<div style="max-height: 400px; min-height: 200px">
   <article>
     {% if tool.imgname %}
         <img src="{{ tool.imgname | prepend: "/images/tools/" | prepend: base_path }}"
-             alt=""
-             class="applink">
+             alt="{{ tool.title }}"
+             class="applink"
+             style="max-height: 200px; width: auto">
     {% endif %}
 
     <h3 itemprop="headline">
