@@ -8,12 +8,20 @@
 
 {% assign title = tool.title %}
 
-<div class="{{ include.type | default: "list" }}__item">
+<style>
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+</style>
+
+<div style="height: 300px; ">>
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if post.imgname %}
       <div class="archive__item-teaser">
         <img src="{{ post.imgname | prepend: "/images/tools/" | prepend: base_path }}"
-            alt="">
+             alt=""
+             width="400px">
       </div>
     {% endif %}
 
