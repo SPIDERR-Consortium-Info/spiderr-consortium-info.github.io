@@ -18,11 +18,9 @@
 <div style="height: 300px; ">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if tool.imgname %}
-      <div class="archive__item-teaser">
         <img src="{{ tool.imgname | prepend: "/images/tools/" | prepend: base_path }}"
              alt=""
-             width="400px">
-      </div>
+             class="applink">
     {% endif %}
 
     <h2 class="archive__item-title" itemprop="headline">
